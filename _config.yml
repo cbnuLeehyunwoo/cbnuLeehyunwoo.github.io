@@ -11,9 +11,9 @@ comments:
   giscus:
     enabled: true
     repo: "cbnuLeehyunwoo/cbnuLeehyunwoo.github.io" # Giscus 저장소 경로 (GitHub 사용자명/저장소명)
-    repo-id: "R_kgDOPPneHg" # Giscus 설정 페이지에서 받은 저장소 고유 ID
+    repo-id: "R_kgDOPQCpgA" # Giscus 설정 페이지에서 받은 저장소 고유 ID
     category: "General" # Giscus 설정 페이지에서 받은 카테고리명
-    category-id: "DIC_kwDOPPneHs4CtNOi" # Giscus 설정 페이지에서 받은 카테고리 고유 ID
+    category-id: "DIC_kwDOPQCpgM4CtOzS" # Giscus 설정 페이지에서 받은 카테고리 고유 ID
     mapping: "pathname" # 페이지와 Giscus Discussion을 연결하는 방식 (pathname: 현재 페이지 경로 사용)
     reactions-enabled: "1" # 1: 반응(좋아요, 싫어요 등) 활성화, 0: 비활성화
     theme: "light-high-contrast" # Giscus 위젯 테마 설정 (예: light, dark, light_protanopia 등)
