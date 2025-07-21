@@ -9,7 +9,6 @@ repository: "cbnuLeehyunwoo/cbnuLeehyunwoo.github.io" # GitHub 저장소 정보 
 comments:
   provider: "giscus" # 댓글 시스템 제공자를 giscus로 설정합니다.
   giscus:
-    enabled: true
     repo: "cbnuLeehyunwoo/cbnuLeehyunwoo.github.io" # Giscus 저장소 경로 (GitHub 사용자명/저장소명)
     repo-id: "R_kgDOPQCpgA" # Giscus 설정 페이지에서 받은 저장소 고유 ID
     category: "Comments" # Giscus 설정 페이지에서 받은 카테고리명
