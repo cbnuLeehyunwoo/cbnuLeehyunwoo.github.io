@@ -1,0 +1,59 @@
+# Site settings
+title: "배우고 기록하는 블로그"
+description: "개발하며 배우고 기록하는 블로그"
+url: "https://cbnuLeehyunwoo.github.io"
+baseurl: "" # 루트 디렉토리에 사이트를 배포하는 경우 빈 문자열로 설정합니다.
+repository: "cbnuLeehyunwoo/cbnuLeehyunwoo.github.io" # GitHub 저장소 정보 (리모트 테마 사용 시 필요할 수 있음)
+
+# Comments settings
+comments:
+  provider: "giscus" # 댓글 시스템 제공자를 giscus로 설정합니다.
+  giscus:
+    enabled: true
+    repo: "cbnuLeehyunwoo/cbnuLeehyunwoo.github.io" # Giscus 저장소 경로 (GitHub 사용자명/저장소명)
+    repo-id: "R_kgDOPPneHg" # Giscus 설정 페이지에서 받은 저장소 고유 ID
+    category: "General" # Giscus 설정 페이지에서 받은 카테고리명
+    category-id: "DIC_kwDOPPneHs4CtNOi" # Giscus 설정 페이지에서 받은 카테고리 고유 ID
+    mapping: "pathname" # 페이지와 Giscus Discussion을 연결하는 방식 (pathname: 현재 페이지 경로 사용)
+    reactions-enabled: "1" # 1: 반응(좋아요, 싫어요 등) 활성화, 0: 비활성화
+    theme: "light-high-contrast" # Giscus 위젯 테마 설정 (예: light, dark, light_protanopia 등)
+    lang: "ko" # Giscus 위젯 UI 언어 설정
+    loading: "lazy" # Giscus 스크립트 로딩 방식 (lazy: 지연 로딩, eager: 즉시 로딩)
+    crossorigin: "anonymous" # Giscus 스크립트 로딩 시 필요한 보안 관련 설정
+
+# Theme settings
+remote_theme: "mmistakes/minimal-mistakes@4.27.1" # 사용할 Minimal Mistakes 테마 버전 지정
+minimal_mistakes_skin: "contrast" # Minimal Mistakes 테마 스킨 설정
+
+# Plugins
+plugins:
+  - jekyll-include-cache # {% include_cached %} 태그를 사용하여 템플릿 캐싱 성능 향상
+
+# Author information
+author:
+  name: "이현우" # 블로그 작성자 이름
+  bio: "개발자 지망생" # 작성자 소개
+  location: "Chungbuk National University" # 작성자 위치
+  avatar: "/assets/images/profile.jpg" # 작성자 프로필 이미지 경로
+
+# Site layout configuration
+header:
+  navigation: # 상단 메뉴에 표시될 링크들
+    - title: "Home"
+      url: /
+    - title: "Categories"
+      url: /categories/
+    - title: "Tags"
+      url: /tags/
+    - title: "About"
+      url: /about/
+
+# Sidebar configuration
+sidebar:
+  nav: "main" # 사이드바에 표시할 네비게이션 메뉴 지정 (일반적으로 'main'을 사용)
+
+# Collections configuration
+collections:
+  pages:
+    output: true
+    permalink: /:path/ # pages 컬렉션의 각 항목에 대한 permalink 규칙 정의
