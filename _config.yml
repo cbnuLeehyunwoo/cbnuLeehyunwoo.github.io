@@ -48,7 +48,7 @@ header:
     - title: "About"
       url: /about/
 
-# Sidebar configuration
+# Sidebar configuration 
 sidebar:
   nav: "main" # 사이드바에 표시할 네비게이션 메뉴 지정 (일반적으로 'main'을 사용)
 
