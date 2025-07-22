@@ -311,6 +311,7 @@ DEPENDENCIES
   github-pages
   jekyll-admin
   jekyll-include-cache
+  jekyll-sitemap
 
 BUNDLED WITH
    2.6.7
