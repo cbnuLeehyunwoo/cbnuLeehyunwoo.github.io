@@ -18,8 +18,20 @@ var store = [{
         "teaser": null
       },{
         "title": "Hello, Minimal Mistakes",
-        "excerpt":"Test  ","categories": ["블로그"],
+        "excerpt":"Test   ","categories": ["블로그"],
         "tags": ["jekyll","minimal-mistakes","시작"],
         "url": "/%EB%B8%94%EB%A1%9C%EA%B7%B8/2025/07/20/hello-world.html",
+        "teaser": null
+      },{
+        "title": "Hello, Minimal Mistakes",
+        "excerpt":"Test   ","categories": ["블로그"],
+        "tags": ["jekyll","minimal-mistakes","Test"],
+        "url": "/%EB%B8%94%EB%A1%9C%EA%B7%B8/2025/07/20/Comment-test.html",
+        "teaser": null
+      },{
+        "title": "Test",
+        "excerpt":"Test   ","categories": ["블로그"],
+        "tags": ["jekyll","minimal-mistakes","Test"],
+        "url": "/%EB%B8%94%EB%A1%9C%EA%B7%B8/2025/07/21/Comment-final.html",
         "teaser": null
       }]
