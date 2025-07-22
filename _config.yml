@@ -2,7 +2,7 @@
 title: "배우고 기록하는 블로그"
 description: "개발하며 배우고 기록하는 블로그"
 url: "https://cbnuLeehyunwoo.github.io"
-baseurl: "/" # 루트 디렉토리에 사이트를 배포하는 경우 빈 문자열로 설정합니다.
+baseurl: "" # 루트 디렉토리에 사이트를 배포하는 경우 빈 문자열로 설정합니다.
 repository: "cbnuLeehyunwoo/cbnuLeehyunwoo.github.io" # GitHub 저장소 정보 (리모트 테마 사용 시 필요할 수 있음)
 
 # Comments settings
