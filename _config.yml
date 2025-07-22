@@ -29,10 +29,16 @@ plugins:
   - jekyll-include-cache # {% include_cached %} 태그를 사용하여 템플릿 캐싱 성능 향상
   - jekyll-sitemap
 
+jekyll_sitemap:
+  exclude:
+    - /googlea730a93fbd9c276f.html
+    - /naver90d573e8ab9c568a6ae02ec2d0271f89.html
+
+
 # Author information
 author:
   name: "이현우" # 블로그 작성자 이름
-  bio: "개발자 지망생" # 작성자 소개
+  bio: "컴퓨터공학과" # 작성자 소개
   location: "Chungbuk National University" # 작성자 위치
   avatar: "/assets/images/profile.jpg" # 작성자 프로필 이미지 경로
 
