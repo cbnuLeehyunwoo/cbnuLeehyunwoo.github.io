@@ -23,7 +23,7 @@ comments:
 # Theme settings
 remote_theme: "mmistakes/minimal-mistakes@4.27.1" # 사용할 Minimal Mistakes 테마 버전 지정
 minimal_mistakes_skin: "contrast" # Minimal Mistakes 테마 스킨 설정
-
+# custom_variable_file: "_assets/scss/variables/_custom.scss"
 # Plugins
 plugins:
   - jekyll-include-cache # {% include_cached %} 태그를 사용하여 템플릿 캐싱 성능 향상
@@ -56,3 +56,4 @@ collections:
   pages:
     output: true
     permalink: /:path/ # pages 컬렉션의 각 항목에 대한 permalink 규칙 정의
+
