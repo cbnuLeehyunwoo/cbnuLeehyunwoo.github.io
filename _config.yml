@@ -28,6 +28,7 @@ minimal_mistakes_skin: "contrast" # Minimal Mistakes 테마 스킨 설정
 plugins:
   - jekyll-include-cache # {% include_cached %} 태그를 사용하여 템플릿 캐싱 성능 향상
   - jekyll-sitemap
+  - jekyll-feed
 
 jekyll_sitemap:
   exclude:

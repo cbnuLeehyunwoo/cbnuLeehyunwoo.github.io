@@ -310,6 +310,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-admin
+  jekyll-feed
   jekyll-include-cache
   jekyll-sitemap
 
