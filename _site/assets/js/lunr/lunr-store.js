@@ -22,4 +22,10 @@ var store = [{
         "tags": ["jekyll","minimal-mistakes","git","github","ruby"],
         "url": "/%EB%B8%94%EB%A1%9C%EA%B7%B8%20%EB%A7%8C%EB%93%A4%EA%B8%B0/2025/07/22/Jekyll,-GitHub-Page%EB%A1%9C-%EA%B0%9C%EC%9D%B8-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-1(%EC%B4%88%EA%B8%B0-%EC%84%A4%EC%A0%95-%EB%B0%8F-%EB%B9%8C%EB%93%9C).html",
         "teaser": null
+      },{
+        "title": "[C++]백준(BOJ) 1356번 유진수 문제풀이",
+        "excerpt":"문제 링크 : https://www.acmicpc.net/problem/1356 문제 유진수는 어떤 수를 10진수로 표현한 뒤 그 수를 두 부분으로 나눴을 때, 앞부분 자리수의 곱과 뒷부분 자리수의 곱이 같을 때를 말한다. 예를 들어, 1221은 유진수이다. 12와 21로 나눴을 때, 앞부분 자리수의 곱 12는 뒷부분 자리수의 곱 21과 같기 때문이다. 1236도 마찬가지로 유진수이다. 하지만, 1234는 아니다....","categories": [],
+        "tags": ["baekjoon","algorithm","brute_force","C++"],
+        "url": "/2025/07/28/%EB%B0%B1%EC%A4%80(BOJ)-1356%EB%B2%88-%EC%9C%A0%EC%A7%84%EC%88%98-%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4.html",
+        "teaser": null
       }]
