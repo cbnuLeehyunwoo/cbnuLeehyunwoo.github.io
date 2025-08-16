@@ -4,6 +4,7 @@ date: 2025-07-22
 categories: [블로그 만들기]
 layout: single
 tags: [jekyll, minimal-mistakes, git, github, ruby]
+slug: jekyll-githubpage-setup
 author_profile: true
 comments: true
 
