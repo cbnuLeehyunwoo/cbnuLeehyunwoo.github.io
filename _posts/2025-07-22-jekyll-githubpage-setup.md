@@ -1,7 +1,8 @@
 ---
 title: Jekyll, GitHub Page로 개인 블로그 만들기-1(초기 설정 및 빌드)
 date: 2025-07-22
-categories: [블로그 만들기]
+categories: 
+- blog
 layout: single
 tags: [jekyll, minimal-mistakes, git, github, ruby]
 slug: jekyll-githubpage-setup
