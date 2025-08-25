@@ -65,3 +65,14 @@ collections:
     output: true
     permalink: /:path/ # pages 컬렉션의 각 항목에 대한 permalink 규칙 정의
 
+defaults:
+  - scope:
+      path: "_posts" # _posts 폴더 안의 모든 파일에 적용
+      type: "posts"   # 'post' 타입에 적용
+    values:
+      layout: "single"
+      author_profile: true
+      comments: true
+      categories:
+        - "Problem_Solving" # 기본 카테고리 설정
+      tags:
